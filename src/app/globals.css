@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.my-atropos {
+  width: 320px;
+  height: 160px;
+}
+
+/* .google-maps {
+  position: relative;
+  padding-bottom: 35%;
+  height: 0;
+  width: 100% !important;
+  overflow: hidden;
+} */
+
+.google-maps iframe {
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  /* height: 100% !important; */
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-4px);
+  }
+}
